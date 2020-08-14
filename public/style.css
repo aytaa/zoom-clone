@@ -1,0 +1,10 @@
+#video.grid {
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    height: 300;
+    width: 400;
+    object-fit: cover;
+}
