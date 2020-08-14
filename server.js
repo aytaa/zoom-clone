@@ -2,11 +2,21 @@ const express = require('express');
 const app = express();
 const logger = require('morgan');
 const server = require('http').Server(app);
+const { v4: uuidv4 } = require('uuid');
+
+app.set('view engine' , 'ejs');
 
 app.use(logger('combined'));
 
+
+
 app.get('/' , (req, res) => {
-     res.render('room');
+     res.redirect(`/${uuidv4()}`);
+});
+
+
+app.get('/:room' , (req , res) => {
+    res.render('room', { roomId: req.params.room })
 });
 
 
@@ -14,5 +24,4 @@ app.get('/' , (req, res) => {
 
 
 
-
-server.listen(4000);
+server.listen(3030);
