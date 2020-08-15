@@ -1,11 +1,30 @@
-# Node JS Zoom Clone
+# Zoom Clone 
 
-### Want to join the BEST JavaScript Course on the planet and learn how to build the projects like Zoom Clone with JavaScript, NodeJS, and MongoDB?
+Zoom Clone maked node js express server.
 
-Check out our `Profit With JavaScript Course`    :point_down: 
+## Installation
 
-[Click Here](https://cleverprogrammer.unstacksite.com/pwj?utm_source=github&utm_medium=repo&utm_content=5-aug-live-zoom-clone-youssef-naz&utm_campaign=live-everyday&utm_term=warm)
+Start server [npm](https://nodejs.org/) to install.
 
-Made with :heart: by [Naz](https://www.instagram.com/nazdumanskyy/) & [Youssef](https://www.instagram.com/youcef.dev/)
+```bash
+npm install 
+```
+```bash
+npm run start:dev 
+```
 
+## Usage
 
+```node js
+import foobar
+
+foobar.pluralize('word') # returns 'words'
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
